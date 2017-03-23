@@ -20,14 +20,6 @@ describe('Test for CleverBot', function() {
 		}
 	});
 
-	afterEach(function(client, done) {
-		done();
-	});
-
-	beforeEach(function(client, done) {
-		done();
-	});
-
 	function signUp(browser, login, username, email, password){
 	  browser
 		.url('http://www.cleverbot.com/')
